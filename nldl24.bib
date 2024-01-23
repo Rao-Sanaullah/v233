@@ -1,0 +1,327 @@
+@proceedings{nldl24,
+  title={Proceedings of the 5th Northern Lights Deep Learning Conference ({NLDL})},
+  booktitle={Proceedings of the 5th Northern Lights Deep Learning Conference ({NLDL})},
+  name={Northern Lights Deep Learning Conference},
+  shortname={{NLDL}},
+  year={2024},
+  editor={Lutchyn, Tetiana and Ram\'irez Rivera, Ad\'in and Ricaud, Benjamin},
+  publisher={PMLR},
+  series={Proceedings of Machine Learning Research},
+  volume={233},
+  start={2024-01-09},
+  end={2024-01-11},
+  published = {2024-01-23},
+  address={UiT The Arctic University, Troms\o, Norway},
+  conference_url={https://www.nldl.org},
+  conference_number={5}
+}
+
+
+@inproceedings{alexos24,
+title={FastStitch: Speech editing by hitch-hiking a pre-trained FastSpeech2 model},
+author={Alexos, Antonios and Baldi, Pierre},
+openreview={demSMymWXS},
+abstract={We present an innovative approach to speech editing, mitigating the time-consuming process of training acoustic models from scratch. Our methodology involves fine-tuning the upper layers of a pre-trained FastSpeech2 model and fusing it with information from a reference mel-spectrogram during inference via a convolution-based, or an attention-based, blending network. Comparative evaluations against baseline methods and against state-of-the-art techniques on single-speaker (LJSpeech) as well as multi-speaker (VCTK) datasets, employing both subjective and objective measures, demonstrate the superior quality of our approach, yielding significantly more natural-sounding speech edits.},
+pages={1--6}
+}
+
+@inproceedings{baldi24,
+title={Deep Learning Over-Parameterization: the Shallow Fallacy},
+author={Baldi, Pierre},
+openreview={ojWMOJUDtP},
+abstract={A major tenet of conventional wisdom dictates that models should not be over-parameterized: the number of free parameters should not exceed the number of training data points. This tenet originates from centuries of shallow learning, primarily in the form of linear or logistic regression. It is routinely applied to all kinds of data analyses and modeling and even to infer properties of the brain. However, through a variety of precise mathematical examples, we show that this conventional wisdom is completely wrong as soon as one moves from shallow to deep learning. In particular, we construct sequences of both linear and non-linear deep learning models whose number of parameters can grow to infinity, while the training set can remain very small (e.g. a single example). In deep models, the parameter space is partitioned into large equivalence classes. Learning can be viewed as a communication process where information is communicated from the data to the synaptic weights. The information in the training data only needs to specify an equivalence class of the parameters, and not the exact parameter values. As such, the number of training examples can be significantly smaller than the number of free parameters.},
+pages={7--12}
+}
+
+@inproceedings{bauman24,
+title={Deep Reinforcement Learning for Goal-Based Investing Under Regime-Switching},
+author={Bauman, Tessa and Golu{\v{z}}a, Sven and Gasperov, Bruno and Kostanjcar, Zvonko},
+openreview={ngQLmTWOX2},
+abstract={Goal-based investing focuses on helping investors achieve specific financial goals, shifting away from the volatility-based risk paradigm. While numerous methods exist for this type of problem, the majority of them struggle to properly capture the non-stationary dynamics of real-world financial markets. This paper introduces a novel deep reinforcement learning framework for goal-based investing that addresses market non-stationarity through prompt reactions to regime switches. It relies on the integration of regime probability estimates directly into the state space. The experimental results indicate that the proposed method significantly outperforms several benchmarks commonly used in goal-based investing.},
+pages={13--19}
+}
+
+@inproceedings{bo-sande24,
+title={A Dual Convolutional Neural Network Pipeline for Melanoma Diagnostics and Prognostics},
+author={B{\o}-Sande, Marie and Benjaminsen, Edvin and Kanwal, Neel and FUSTER, SAUL and Hardardottir, Helga and Lundal, Ingrid and Janssen, Emilius A.M. and Engan, Kjersti},
+openreview={H0DalfbrcD},
+abstract={Melanoma is a type of cancer that begins in the cells controlling the pigment of the skin, and it is often referred to as the most dangerous skin cancer. Diagnosing melanoma can be time-consuming, and a recent increase in melanoma incidents indicates a growing demand for a more efficient diagnostic process. This paper presents a pipeline for melanoma diagnostics, leveraging two convolutional neural networks, a diagnosis, and a prognosis model. The diagnostic model is responsible for localizing malignant patches across whole slide images and delivering a patient-level diagnosis as malignant or benign. Further, the prognosis model utilizes the diagnostic model's output to provide a patient-level prognosis as good or bad. The full pipeline has an F1 score of 0.79 when tested on data from the same distribution as it was trained on.},
+pages={20--26}
+}
+
+@inproceedings{bryan-smith24,
+title={Towards {AI} for approximating hydrodynamic simulations as a 2D segmentation task},
+author={Bryan-Smith, Lydia and Dethlefs, Nina},
+openreview={TpOsdB4gwR},
+software={https://github.com/sbrl/research-rainfallradar},
+abstract={Traditional predictive simulations and remote sensing techniques for forecasting floods are based on fixed and spatially restricted physics-based models. These models are computationally expensive and can take many hours to run, resulting in predictions made based on outdated data. They are also spatially fixed, and unable to scale to unknown areas. By modelling the task as an image segmentation problem, an alternative approach using artificial intelligence to approximate the parameters of a physics-based model in 2D is demonstrated, enabling rapid predictions to be made in real-time.},
+pages={27--35}
+}
+
+@inproceedings{clark24,
+title={Tra{CE}: Trajectory Counterfactual Explanation Scores},
+author={Clark, Jeffrey Nicholas and Small, Edward Alexander and Keshtmand, Nawid and Wan, Michelle Wing Lam and Mayoral, Elena Fillola and Werner, Enrico and Bourdeaux, Christopher and Santos-Rodriguez, Raul},
+openreview={Jgwi6CaTnU},
+software={https://github.com/jeffnclark/TraCE},
+abstract={Counterfactual explanations, and their associated algorithmic recourse, are typically leveraged to understand and explain predictions of individual instances coming from a black-box classifier. In this paper, we propose to extend the use of counterfactuals to evaluate progress in sequential decision making tasks. To this end, we introduce a model-agnostic modular framework, TraCE (Trajectory Counterfactual Explanation) scores, to distill and condense progress in highly complex scenarios into a single value. We demonstrate TraCE’s utility by showcasing its main properties in two case studies spanning healthcare and climate change.},
+pages={36--45}
+}
+
+@inproceedings{debner24,
+title={Scheduling conditional task graphs with deep reinforcement learning},
+author={Debner, Anton and Krahn, Maximilian and Hirvisalo, Vesa},
+openreview={WZSyFb5xLJ},
+software={https://github.com/Aalto-ESG/drl-scheduler-2024},
+abstract={Industrial applications often depend on costly computation infrastructures. Well optimised schedulers provide cost efficient utilization of these computational resources, but they can take significant effort to implement. It can also be beneficial to split the application into a hierarchy of tasks represented as a conditional task graph. In such case, the tasks in the hierarchy are conditionally executed, depending on the output of the earlier tasks. While such conditional task graphs can save computational resources, they also add complexity to scheduling.
+
+Recently, there has been research on Deep Reinforcement Learning (DRL) based schedulers, but they mostly do not address conditional task graphs. We design a DRL based scheduler for conditional task graphs in a heterogeneous execution environment. We measure how the probabilities of a conditional task graph affects the scheduler and how these adverse effects can be mitigated. We show that our solution learns to beat traditional baseline schedulers in a fraction of an hour.},
+pages={46--52}
+}
+
+@inproceedings{dinh24,
+title={Understanding Neural {ODE} prediction decision using {SHAP}},
+author={Dinh, Phuong and Jobson, Deddy and Sano, Takashi and Honda, Hirotada and Nakamura, Shugo},
+openreview={srok3Fte2E},
+software={https://github.com/dlkphuong/NODEs-x-SHAP},
+abstract={Neural ordinary differential equations (NODEs) have emerged as a powerful approach for modelling complex dynamic systems using continuous-time transformations. Although NODEs offer superior modelling capabilities, little research has been conducted on understanding the factors that contribute to their predictions on image datasets. In this paper, we propose the leveraging of SHapley Additive exPlanations (SHAP), which is an influential explainable artificial intelligence method, to gain insights into the NODEs prediction process. We enable the interpretable analysis of important pixels that contribute to the prediction decisions of NODEs by adapting SHAP to the continuous-time nature thereof. Experiments on synthetic datasets demonstrate the efficacy of our proposed approach in revealing the dynamics and important features that drive NODEs predictions. Our empirical findings provide insights into how NODEs determine important features and the distributions of the Shapley values of each class. The proposed integration of SHAP with NODEs contributes to the broader goal of enhancing transparency and trustworthiness in the application of continuous-time models to complex real-world systems.},
+pages={53--58}
+}
+
+@inproceedings{fernandez24,
+title={Comparative Analysis of Binary and Multiclass Activity Recognition in High-Quality Newborn Resuscitation Videos},
+author={Garc\'ia-Torres, Jorge and Meinich-Bache, {\O}yvind and Rettedal, Siren Irene and Kibsgaard, Amalie and Brunner, Sara and Engan, Kjersti},
+openreview={NzigeDgfx4},
+abstract={Globally, 3-10\% of newborns do not breathe spontaneously at birth and need resuscitation. Prompt initiation of resuscitative interventions such as tactile stimulation and positive pressure ventilation can reduce neonatal mortality and morbidity associated with birth asphyxia. Automated video analysis of resuscitation episodes may be beneficial for evaluation and debriefing purposes. In this work, a dataset of 220 newborn resuscitation videos collected at the Stavanger University Hospital (Norway) is used to develop NBT-I3D, a deep neural network pipeline to automatically recognize resuscitation activities. To assess the task, both binary and multiclass networks have undergone training, allowing for a comparison of the two approaches. Results obtained for binary classification show a mean precision and recall of 84.76\% and 80.92\%, respectively. For multiclass, a mean precision and recall of 72.26\% and 74.80\% are reported.},
+pages={59--66}
+}
+
+@inproceedings{fromberg24,
+title={Beyond Accuracy: Fairness, Scalability, and Uncertainty Considerations in Facial Emotion Recognition},
+author={Fromberg, Laurits and Nielsen, Troels and Frumosu, Flavia Dalia and Clemmensen, Line H},
+openreview={HRj4VRUPtV},
+abstract={Facial emotion recognition (FER) from images or videos is an emerging subfield of emotion recognition that in recent years has achieved increased traction resulting in a wide range of models, datasets, and applications. Benchmarking computer vision methods often provide accuracy rates above 90\% in controlled settings. However, little focus has been given to aspects of fairness, uncertainty, and scalability within facial emotion recognition systems. The increasing applicability of FER models within assisted psychiatry and similar domains underlines the importance of fair and computational resource compliant decision-making. The primary objective of this paper is to propose methods for assessment of existing open source FER models to establish a thorough understanding of their current fairness, scalability, and robustness.},
+pages={67--74}
+}
+
+@inproceedings{geldhauser24,
+title={Is diverse and inclusive {AI} trapped in the gap between reality and algorithmizability?},
+author={Geldhauser, Carina and Diebel-Fischer, Hermann},
+openreview={bnjr0jiMcW},
+abstract={We investigate the preconditions of an operationalization of ethics on the example algorithmization, i.e. the mathematical implementation, of the concepts of fairness and diversity in AI.
+From a non-technical point of view in ethics, this implementation entails two major drawbacks, (1) as it narrows down big concepts to a single model that is deemed manageable, and (2) as it hides unsolved problems of humanity in a system that could be mistaken as the `solution' to these problems. We encourage extra caution when dealing with such issues and vote for human oversight.},
+pages={75--80}
+}
+
+@inproceedings{hallosta24,
+title={Effects of Foreground Augmentations in Synthetic Training Data on the Use of {UAV}s for Weed Detection},
+author={Hall{\"o}sta, Simon and Pettersson, Mats Ingemar and Dahl, Mattias},
+openreview={BT0K8SjfVm},
+abstract={This study addresses the issue of black-grass, a herbicide-resistant weed 
+that threatens wheat yields in Western Europe, through the use of high-
+resolution Unmanned Aerial Vehicles (UAVs) and synthetic data augmentation 
+in precision agriculture. We mitigate challenges such as the need for large 
+labeled datasets and environmental variability by employing synthetic data 
+augmentations in training a Mask R-CNN model. Using a minimal dataset of 43 
+black-grass and 12 wheat field images, we achieved a 37\% increase in Area 
+Under the Curve (AUC) over the non-augmented baseline, with scaling as the 
+most effective augmentation. The best model attained a recall of 53\% at a 
+precision of 64\%, offering a promising approach for future precision 
+agriculture applications.},
+pages={81--88}
+}
+
+@inproceedings{hove24,
+title={Guiding drones by information gain},
+author={Hove, Alouette van and Aalstad, Kristoffer and Pirk, Norbert},
+openreview={thflkEpXJu},
+abstract={The accurate estimation of locations and emission rates of gas sources is crucial across various domains, including environmental monitoring and greenhouse gas emission analysis. This study investigates two drone sampling strategies for inferring source term parameters of gas plumes from atmospheric measurements. Both strategies are guided by the goal of maximizing information gain attained from observations at sequential locations. Our research compares the myopic approach of infotaxis to a far-sighted navigation strategy trained through deep reinforcement learning. We demonstrate the superior performance of deep reinforcement learning over infotaxis in environments with non-isotropic gas plumes.},
+pages={89--96}
+}
+
+@inproceedings{jensen24a,
+title={Beyond output-mask comparison: A self-supervised inspired object scoring system for building change detection},
+author={Jensen, Are C},
+openreview={xerwVZ4edE},
+abstract={Updating urban-area maps is crucial for urban planning and development. Traditional methods of updating urban-area maps based on aerial photography are labor-intensive and struggle to keep pace with rapid urban development. Automated algorithms for detecting new and removed buildings based on bi-temporal images typically either rely on comparing mono-temporal building detection outputs or requiring examples of new and removed buildings for training. This study presents a novel method using self-supervised learning principles to train a distinct object-change scoring network. It repurposes segments of the (potentially imperfect) delineations used in single-temporal detector training, harnesses bi-temporal data attributes, and leverages the assumption that most buildings remain unchanged over time. This eliminates the need for explicit examples of new or removed buildings, while still overcome usual constraints of post-detection output-mask comparison methods. We provide precision-recall curves and examples demonstrating the improved performance of the suggested approach. Furthermore, we discuss several immediate algorithmic variations that hold the potential for even further enhancements in performance.},
+pages={97--103}
+}
+
+@inproceedings{jensen24b,
+title={Neural machine translation for automated feedback on children's early-stage writing},
+author={Jensen, Jonas Vestergaard and Jordahn, Mikkel and Andersen, Michael Riis},
+openreview={DCiX0YMd8M},
+abstract={In this work, we address the problem of assessing and constructing feedback for early-stage writing automatically using machine learning. Early-stage writing is typically vastly different from conventional writing due to phonetic spelling and lack of proper grammar, punctuation, spacing etc. Consequently, early-stage writing is highly non-trivial to analyze using common linguistic metrics. We propose to use sequence-to-sequence models for translating early-stage writing by students into conventional writing, which allows the translated text to be analyzed using linguistic metrics. Furthermore, we propose a novel robust likelihood to mitigate the effect of label noise in the dataset. We investigate the proposed methods using a set of numerical experiments and demonstrate that the conventional text can be predicted with high accuracy.},
+pages={104--112}
+}
+
+@inproceedings{johnsen24,
+title={SafetyCage: A misclassification detector for feed-forward neural networks},
+author={Johnsen, P{\r{a}}l Vegard and Remonato, Filippo},
+openreview={cWSk6l1xGo},
+abstract={Deep learning classifiers have reached state-of-the-art performance in many fields, particularly so image classification.
+Wrong class assignment by the classifiers can often be inconsequential when distinguishing pictures of cats and dogs, but in more critical operations like autonomous driving vehicles or process control in industry, wrong classifications can lead to disastrous events.
+While reducing the error rate of the classifier is of primary importance, it is impossible to completely remove it.
+Having a system that is able to flag wrong or suspicious classifications is therefore a necessary component for safety and robustness in operations.
+In this work, we present a general statistical inference framework for detection of misclassifications.
+We test our approach on two well-known benchmark datasets: MNIST and CIFAR-10.
+We show that, given the underlying classifier is well trained, SafetyCage is effective at flagging wrong classifications.
+We also include a detailed discussion of the drawbacks, and what can be done to improve the approach.},
+pages={113--119}
+}
+
+@inproceedings{keshtmand24,
+title={Typicality-based point {OOD} detection with contrastive learning},
+author={Keshtmand, Nawid and Santos-Rodriguez, Raul and Lawry, Jonathan},
+openreview={Pmi6PM8QoZ},
+software={https://github.com/OngoingMLProjects/Contrastive_Representation_Uncertainty},
+abstract={Typicality-based inference methods for OOD detection find a typical value (often the mean value) of a model statistic from the training data and then flag test points as anomalous if the model statistic of the test data point deviates significantly from the typical value. These methods are effective for detecting a group of OOD data points when OOD data points are labeled into groups, but ineffective for the detection of individual OOD data points. In this paper, we extend typicality-based inference to be effective for point OOD detection by utilizing latent features learned from contrastive learning and then obtaining the nearest neighbors of a test data point to provide additional context used for point OOD detection. The typicality-based inference approach is shown to improve point OOD detection relative to several benchmarks.},
+pages={120--129}
+}
+
+@inproceedings{koop24,
+title={Neural Langevin Dynamics: Towards Interpretable Neural Stochastic Differential Equations},
+author={Koop, Simon Martinus and Peletier, Mark A and Portegies, Jacobus Willem and Menkovski, Vlado},
+openreview={wFKINgdCtY},
+software={https://github.com/SimonKoop/NLD-public/},
+abstract={Neural Stochastic Differential Equations (NSDE) have been trained as both Variational Autoencoders, and as GANs. However, the resulting Stochastic Differential Equations can be hard to interpret or analyse due to the generic nature of the drift and diffusion fields. By restricting our NSDE to be of the form of Langevin dynamics and training it as a VAE, we obtain NSDEs that lend themselves to more elaborate analysis and to a wider range of visualisation techniques than a generic NSDE. More specifically, we obtain an energy landscape, the minima of which are in one-to-one correspondence with latent states underlying the used data. This not only allows us to detect states underlying the data dynamics in an unsupervised manner but also to infer the distribution of time spent in each state according to the learned SDE. In general, restricting an NSDE to Langevin dynamics enables the use of a large set of tools from computational molecular dynamics for the analysis of the obtained results.},
+pages={130--137}
+}
+
+@inproceedings{llambias24,
+title={Heterogeneous Learning for Brain Lesion Segmentation, Detection, and Classification},
+author={Llambias, Sebastian N{\o}rgaard and Nielsen, Mads and Ghazi, Mostafa Mehdipour},
+openreview={ePQt7sOJ8t},
+abstract={Brain lesions detected in magnetic resonance images often vary in type and rarity across different cohorts, posing a challenge for deep learning techniques that are typically specialized in recognizing single lesion types from homogenous data. This limitation restricts their practicality in diverse clinical settings. In this study, we explore different deep-learning approaches to develop robust models handling both subject and imaging variability, while recognizing multiple lesion types. Our research focuses on segmentation and detection tasks across four distinct datasets, encompassing six cohorts of subjects with white matter hyperintensities, multiple sclerosis lesions, or stroke abnormalities. Our findings reveal that a cascade approach, comprising a fully convolutional network and a fully connected classifier, offers optimal accuracy for robust multiclass lesion segmentation and detection. Notably, our proposed model remains competitive with models trained solely on one dataset and applied to the same dataset while showing robustness against domain shifts. Additionally, in related tasks, our model consistently produces results comparable with the state-of-the-art methods. This study contributes to advancing clinically applicable deep learning techniques for brain lesion recognition, offering a promising solution for handling lesion diversity in uncontrolled clinical environments.},
+pages={138--144}
+}
+
+@inproceedings{lund24,
+title={Instruction-guided deidentification with synthetic test cases for Norwegian clinical text},
+author={Lund, J{\o}rgen Aarmo and Mikalsen, Karl {\O}yvind and Burman, Joel and Woldaregay, Ashenafi Zebene and Jenssen, Robert},
+openreview={qQfpY9UPoP},
+software={https://github.com/UNN-SPKI/Nor-DeID-SynthData},
+abstract={Deidentification methods, which remove directly identifying information, can be useful tools to mitigate the privacy risks associated with sharing healthcare data. However, benchmarks to evaluate deidentification methods are themselves often derived from real clinical data, making them sensitive themselves and therefore harder to share and apply. Given the rapid advances in generative language modelling, we would like to leverage large language models to construct freely available deidentification benchmarks, and to assist in the deidentification process. We apply the GPT-4 language model to, for the first time, construct a synthetic and publicly available dataset of synthetic Norwegian discharge summaries with annotated identifying details, consisting of 1200 summaries averaging 100 words each. In our sample of documents, we find that the generated annotations highly agree with human annotations, with an $F_1$ score of $0.983$. We then examine whether large language models can be applied directly to perform deidentification themselves, proposing methods where an instruction-tuned language model is prompted to either annotate or redact identifying details. Comparing the methods on our synthetic dataset and the NorSynthClinical-PHI dataset, we find that GPT-4 underperforms the baseline method proposed by Bråthen et al. (2021), suggesting that named entity recognition problems are still challenging for instruction-tuned language models.},
+pages={145--152}
+}
+
+@inproceedings{meiresone24,
+title={Loop closure with a low power millimeter wave radar sensor using an autoencoder},
+author={Meiresone, Pieter and Hamme, David Van and Philips, Wilfried},
+openreview={coJVU6WPFn},
+abstract={In this paper, we will consider place recognition, more commonly know as loop closure, with a low
+resolution single-chip millimeter wave (mmWave) radar in indoor environments. It is an essential
+part in simultaneous localization and mapping (SLAM) systems to avoid drift. By using a novel method
+to create descriptors or latent codes with an autoencoder in combination with exploiting the
+temporal similarity between our latent codes, we are able to successfully extract loop closures with a
+radar-only system without requiring ground truth. Our proposed method is validated in an industrial
+IoT lab on an Unmanned Aerial Vehicle (UAV) and on a cargo bike in a parking building.},
+pages={153--157}
+}
+
+@inproceedings{middleton24,
+title={Local Gamma Augmentation for Ischemic Stroke Lesion Segmentation on {MRI}},
+author={Middleton, Jon and Bauer, Marko and Sheng, Kaining and Johansen, Jacob and Perslev, Mathias and Ingala, Silvia and Nielsen, Mads and Pai, Akshay},
+openreview={zH5xC3wius},
+abstract={The identification and localisation of pathological tissues in medical images continues to command much attention among deep learning practitioners. When trained on abundant datasets, deep neural networks can match or exceed human performance. However, the scarcity of annotated data complicates the training of these models. Data augmentation techniques can compensate for a lack of training samples. However, many commonly used augmentation methods can fail to provide meaningful samples during model fitting. We present local gamma augmentation, a technique for introducing new instances of  intensities in pathological tissues. We leverage local gamma augmentation to compensate for a bias in intensities corresponding to ischemic stroke lesions in human brain MRIs. On three datasets, we show how local gamma augmentation can improve the image-level sensitivity of a deep neural network tasked with ischemic lesion segmentation on magnetic resonance images.},
+pages={158--164}
+}
+
+@inproceedings{mukhopadhyay24,
+title={Large Neural Networks at a Fraction},
+author={Mukhopadhyay, Aritra and A, Adhilsha and Mishra, Subhankar},
+openreview={xVbMj75YDD},
+software={https://github.com/smlab-niser/quatLT23},
+abstract={Large-scale deep learning models are known for their large amount of parameters, weighing down on the computational resources. The core of the Lottery Ticket Hypothesis showed us the potential of pruning to reduce such parameters without a significant drop in accuracy. Quaternion neural networks achieve comparable accuracy to equivalent real-valued networks on multi-dimensional prediction tasks. In our work, we implement pruning on real and quaternion-valued implementations of large-scale networks in the task of image recognition. For instance, our implementation of the ResNet-101 architecture on the CIFAR-100 and ImageNet64x64 datasets resulted in pruned quaternion models outperforming their real-valued counterparts by 4\% and 7\% in accuracy at sparsities of about 6\% and 0.4\%, respectively. We also got quaternion implementations of ResNet-101 and ResNet-152 on CIFAR-100 with steady Lottery tickets, whereas the Real counterpart failed to train at the same sparsity. Our experiments show that the pruned quaternion implementations perform better at higher sparsity than the corresponding real-valued counterpart, even in some larger neural networks.},
+pages={165--173}
+}
+
+@inproceedings{munk24,
+title={{MDD}-{UN}et: Domain Adaptation for Medical Image Segmentation with Theoretical Guarantees, a Proof of Concept},
+author={Munk, Asbj{\o}rn and Nielsen, Mads},
+openreview={MMR5vRoaNa},
+software={https://github.com/asbjrnmunk/mdd-unet},
+abstract={The current state-of-the art techniques for image segmentation are often based on U-Net architectures, a U-shaped encoder-decoder networks with skip connections. Despite the powerful performance, the architecture often does not perform well when used on data which has different characteristics than the data it was trained on. Many techniques for improving performance in the presence of domain shift have been developed, however typically only have loose connections to the theory of domain adaption. In this work, we propose an unsupervised domain adaptation framework for U-Nets with theoretical guarantees based on the Margin Disparity Discrepancy called the MDD-UNet. We evaluate the proposed technique on the task of hippocampus segmentation, and find that the MDD-UNet is able to learn features which are domain-invariant with no knowledge about the labels in the target domain. The MDD-UNet improves performance over the standard U-Net on 11 out of 12 combinations of datasets. This work serves as a proof of concept by demonstrating an improvement on the U-Net in it's standard form without modern enhancements, which opens up a new avenue of studying domain adaptation for models with very large hypothesis spaces from both methodological and practical perspectives.},
+pages={174--180}
+}
+
+@inproceedings{nielsen24,
+title={Hubness Reduction Improves Sentence-{BERT} Semantic Spaces},
+author={Nielsen, Beatrix Miranda Ginn and Hansen, Lars Kai},
+openreview={6s1gVKXWbZ},
+abstract={Semantic representations of text, i.e. representations of natural language which capture meaning by geometry, are essential for areas such as information retrieval and document grouping. High-dimensional trained dense vectors have received much attention in recent years as such representations. We investigate the structure of semantic spaces that arise from embeddings made with Sentence-BERT and find that the representations suffer from a well-known problem in high dimensions called hubness. Hubness results in asymmetric neighborhood relations, such that some texts (the hubs) are neighbours of many other texts while most texts (so-called anti-hubs), are neighbours of few or no other texts. We quantify the semantic quality of the embeddings using hubness scores and error rate of a neighbourhood based classifier. We find that when hubness is high, we can reduce error rate and hubness using hubness reduction methods. We identify a combination of two methods as resulting in the best reduction. For example, on one of the tested pretrained models, this combined method can reduce hubness by about 75\% and error rate by about 9\%. Thus, we argue that mitigating hubness in the embedding space provides better semantic representations of text.},
+pages={181--204}
+}
+
+@inproceedings{pepe24,
+title={Clifford Group Equivariant Neural Network Layers for Protein Structure Prediction},
+author={Pepe, Alberto and Buchholz, Sven and Lasenby, Joan},
+openreview={JNfpsiGS5E},
+abstract={We employ Clifford Group Equivariant Neural Network (CGENN) layers to predict protein coordinates in a Protein Structure Prediction (PSP) pipeline. PSP is the estimation of the 3D structure of a protein, generally through deep learning architectures. Information about the geometry of the protein chain has been proven to be crucial for accurate predictions of 3D structures. However, this information is usually flattened as machine learning features that are not representative of the geometric nature of the problem. Leveraging recent advances in geometric deep learning, we redesign a PSP architecture with the addition of CGENN layers. CGENNs can achieve better generalization and robustness when dealing with data that show rotational or translational invariance such as protein coordinates, which are independent of the chosen reference frame. CGENNs inputs, outputs, weights and biases are objects in the Geometric Algebra of 3D Euclidean space, i.e. $\mathcal{G}_{3,0,0}$, and hence are interpretable from a geometrical perspective. We test 6 approaches to PSP and show that CGENN layers increase the prediction accuracy by up to 2.1\%, with fewer trainable parameters compared to linear layers and give a clear geometric interpretation of their outputs.},
+pages={205--211}
+}
+
+@inproceedings{pihlgren24,
+title={Deep Perceptual Similarity is Adaptable to Ambiguous Contexts},
+author={Pihlgren, Gustav Grund and Sandin, Fredrik and Liwicki, Marcus},
+openreview={yiCC76u3YV},
+software={https://github.com/LTU-Machine-Learning/Analysis-of-Deep-Perceptual-Loss-Networks},
+abstract={This work examines the adaptability of Deep Perceptual Similarity (DPS) metrics to context beyond those that align with average human perception and contexts in which the standard metrics have been shown to perform well. Prior works have shown that DPS metrics are good at estimating human perception of similarity, so-called perceptual similarity. However, it remains unknown whether such metrics can be adapted to other contexts.
+
+In this work, DPS metrics are evaluated for their adaptability to different contradictory similarity contexts. Such contexts are created by randomly ranking six image distortions. Metrics are adapted to consider distortions more or less disruptive to similarity depending on their place in the random rankings. This is done by training pretrained CNNs to measure similarity according to given contexts. The adapted metrics are also evaluated on a perceptual similarity dataset to evaluate whether adapting to a ranking affects their prior performance.
+
+The findings show that DPS metrics can be adapted with high performance. While the adapted metrics have difficulties with the same contexts as baselines, performance is improved in 99\% of cases. Finally, it is shown that the adaption is not significantly detrimental to prior performance on perceptual similarity.
+
+The implementation of this work is available online.},
+pages={212--219}
+}
+
+@inproceedings{sanaullah24,
+title={A Hybrid Spiking-Convolutional Neural Network Approach for Advancing Machine Learning Models},
+author={Sanaullah, Sanaullah},
+openreview={0YiM1yOSUq},
+abstract={In this article, we propose a novel standalone hybrid Spiking-Convolutional Neural Network (SC-NN) model and test on using image inpainting tasks. Our approach uses the unique capabilities of SNNs, such as event-based computation and temporal processing, along with the strong representation learning abilities of CNNs, to generate high-quality inpainted images. The model is trained on a custom dataset specifically designed for image inpainting, where missing regions are created using masks. The hybrid model consists of SNNConv2d layers and traditional CNN layers. The SNNConv2d layers implement the leaky integrate-and-fire (LIF) neuron model, capturing spiking behavior, while the CNN layers capture spatial features. In this study, a mean squared error (MSE) loss function demonstrates the training process, where a training loss value of 0.015, indicates accurate performance on the training set and the model achieved a validation loss value as low as 0.0017 on the testing set. Furthermore, extensive experimental results demonstrate state-of-the-art performance, showcasing the potential of integrating temporal dynamics and feature extraction in a single network for image inpainting.},
+pages={220--227}
+}
+
+@inproceedings{vermeer24,
+title={Lidar-based Norwegian tree species detection using deep learning},
+author={Vermeer, Martijn and Hay, Jacob Alexander and V{\"o}lgyes, David and Koma, Zsofia and Breidenbach, Johannes and Fantin, Daniele},
+openreview={Y3vDhGwhqU},
+abstract={Background:
+The mapping of tree species within Norwegian forests is a time-consuming process,
+involving forest associations relying on manual labeling by experts. The process
+can involve aerial imagery, personal familiarity, on-scene references,
+and remote sensing data. The state-of-the-art methods usually use high-resolution
+aerial imagery with semantic segmentation methods.
+
+Methods: We present a deep learning based tree species classification model
+utilizing only lidar (Light Detection And Ranging) data.
+The lidar images are segmented into four classes (Norway Spruce, Scots Pine, Birch, background)
+with a U-Net based network. The model is trained with focal loss over
+partial weak labels. A major benefit of the approach is that both the lidar imagery and
+the base map for the labels have free and open access.
+
+Results: Our tree species classification model achieves a macro-averaged $\mathrm{F}_1$ score
+of 0.70 on an independent validation with National Forest Inventory (NFI) in-situ sample plots.
+That is close to, but below the performance of aerial, or aerial and lidar combined models.},
+pages={228--234}
+}
+
+@inproceedings{villanger24,
+title={An Inductive Bias for Emergent Communication in a Continuous Setting},
+author={Villanger, John Isak Fjellvang and Bojesen, Troels Arnfred},
+openreview={TdieTXeza3},
+abstract={We study emergent communication in a multi-agent reinforcement learning setting, where the agents solve cooperative tasks and have access to a communication channel. The communication channel may consist of either discrete symbols or continuous variables.
+We introduce an inductive bias to aid with the emergence of good communication protocols for continuous messages, and we look at the effect this type of inductive bias has for continuous and discrete messages in itself or when used in combination with reinforcement learning. We demonstrate that this type of inductive bias has a beneficial effect on the communication protocols learnt in two toy environments, Negotiation and Sequence Guess.},
+pages={235--243}
+}
+
+@inproceedings{zec24,
+title={Efficient Node Selection in Private Personalized Decentralized Learning},
+author={Zec, Edvin Listo and {\"O}stman, Johan and Mogren, Olof and Gillblad, Daniel},
+openreview={b7AYGGAaSI},
+software={https://github.com/edvinli/ppdl},
+abstract={Personalized decentralized learning is a promising paradigm for distributed learning, enabling each node to train a local model on its own data and collaborate with other nodes to improve without sharing any data. However, this approach poses significant privacy risks, as nodes may inadvertently disclose sensitive information about their data or preferences through their collaboration choices. In this paper, we propose Private Personalized Decentralized Learning (PPDL), a novel approach that combines secure aggregation and correlated adversarial multi-armed bandit optimization to protect node privacy while facilitating efficient node selection. By leveraging dependencies between different arms, represented by potential collaborators, we demonstrate that PPDL can effectively identify suitable collaborators solely based on aggregated models. Additionally, we show that PPDL surpasses previous non-private methods in model performance on standard benchmarks under label and covariate shift scenarios.},
+pages={244--250}
+}
+
