@@ -1,7 +1,7 @@
 ---
 title: Proceedings of Machine Learning Research
-booktitle: Proceedings of the 5th Northern Lights Deep Learning Conference ({NLDL})
-shortname: "{NLDL}"
+booktitle: Proceedings of the 5th Northern Lights Deep Learning Conference (NLDL)
+shortname: "NLDL"
 year: '2024'
 publisher: PMLR
 series: Proceedings of Machine Learning Research
@@ -14,7 +14,7 @@ layout: proceedings
 issn: 2640-3498
 id: nldl24
 month: 0
-tex_title: Proceedings of the 5th Northern Lights Deep Learning Conference ({NLDL})
+tex_title: Proceedings of the 5th Northern Lights Deep Learning Conference (NLDL)
 cycles: false
 bibtex_editor: Lutchyn, Tetiana and Ram\'irez Rivera, Ad\'in and Ricaud, Benjamin
 editor:
@@ -25,7 +25,7 @@ editor:
 - given: Benjamin
   family: Ricaud
 description: |
-  Proceedings of the 5th Northern Lights Deep Learning Conference ({NLDL})
+  Proceedings of the 5th Northern Lights Deep Learning Conference (NLDL)
     Held in UiT The Arctic University, Troms\o, Norway on 09-11 January 2024
 
   Published as Volume 233 by the Proceedings of Machine Learning Research on 23 January 2024.
